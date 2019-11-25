@@ -1,0 +1,16 @@
+#valor = input('Digite algo: ')
+#print('O tipo primitivo do que foi digitado é {0}'.format(type(valor)))
+#print('O que foi digitado é letra? ', valor.isalpha())
+#print('O que foi digitado é número? ', valor.isnumeric())
+#print('O que foi digitado é letra e ou número? ', valor.isalnum())
+
+valor = input('Digite algo: ')
+print('O tipo primitivo desse valor é ', type(valor))
+print('Só tem espaços? ', valor.isspace())
+print('É um número? ', valor.isnumeric())
+print('É alfabético? ', valor.isalpha())
+print('É alfanumérico? ', valor.isalnum())
+print('Está em maiúsculas? ', valor.isupper())
+print('Está em minúsculas? ', valor.islower())
+print('Está capitalizada? ', valor.istitle())
+

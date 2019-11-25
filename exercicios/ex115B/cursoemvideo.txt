@@ -1,0 +1,4 @@
+André;22
+Pedro;33
+Maria;85
+Ana;22
